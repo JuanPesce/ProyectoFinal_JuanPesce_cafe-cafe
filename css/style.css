@@ -16,6 +16,9 @@ body {
   /*height: 90px;*/
   flex-wrap: wrap; }
 
+.nav-item {
+  color: aliceblue; }
+
 .logo {
   display: flex;
   width: 120px;

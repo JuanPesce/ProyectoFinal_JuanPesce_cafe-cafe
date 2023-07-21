@@ -176,11 +176,13 @@
   
   .footer__datos {
     display: flex;
-    padding: 10px; }
+    padding: 10px; 
+    flex-wrap: wrap;}
   
   .footer__datos section {
     display: flex;
-    padding: 10px; }
+    padding: 10px;
+    flex-wrap: wrap; }
   
   .footer__listados li {
     padding: 5px 0px; }

@@ -23,7 +23,9 @@
     /*  background-size: 1550px;*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover; 
+    transition: all 1.5s;
+  }
   
   .main-index li {
     list-style-type: none;

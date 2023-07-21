@@ -122,6 +122,9 @@
   display: flex;
   padding: 10px; }
 
+.main__tutorial h1 {
+  font-family: cursive; }
+
 .main__tutorial__imagenprincipal {
   display: flex;
   width: 100%; }
@@ -137,7 +140,7 @@
   padding: 0px 10px; }
 
 .main__tutorial__section p {
-  padding: 5px 0; }
+  padding: 10px 0; }
 
 .main__tutorial__section h2 {
   padding: 10px 0; }
@@ -170,7 +173,8 @@
   padding: 0px 10px 0px 50px; }
 
 .main__shop h1 {
-  padding: 0px 10px 0px 30px; }
+  padding: 0px 10px 0px 30px;
+  font-family: cursive; }
 
 .footer-index {
   background-color: #7e5a2b;
@@ -208,7 +212,8 @@
   padding: 5px 0px; }
 
 .main-contacto h1 {
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  font-family: cursive; }
 
 .main-contacto .formulario-consulta {
   height: 250px; }

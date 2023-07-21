@@ -1,12 +1,3 @@
-* {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0; }
-
-body {
-  background-color: #f9dab1; }
-
-/*Header*/
 .header {
   background-color: #7e5a2b;
   color: aliceblue;
@@ -50,7 +41,6 @@ body {
   padding-left: 0px;
   margin: 0px 0px 10px 0px; }
 
-/*Main*/
 .main-contacto {
   height: 800px;
   padding: 0px 40px; }
@@ -149,7 +139,33 @@ body {
 .main {
   background-color: #f9dab1; }
 
-/*FOOTER*/
+/*shop*/
+.shop-section-art {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 35px 10px; }
+
+.shop-caps {
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  padding: 5px 5px 15px 5px;
+  margin: 5px; }
+
+.shop-caps img {
+  width: 100px;
+  height: 120px; }
+
+.main__shop {
+  padding: 10px 10px 40px 10px; }
+
+.main__shop h2 {
+  padding: 0px 10px 0px 50px; }
+
+.main__shop h1 {
+  padding: 0px 10px 0px 30px; }
+
 .footer-index {
   background-color: #7e5a2b;
   color: antiquewhite;
@@ -185,39 +201,20 @@ body {
 .footer__listados li {
   padding: 5px 0px; }
 
-/*shop*/
-.shop-section-art {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 35px 10px; }
-
-.shop-caps {
-  background-color: white;
-  width: 200px;
-  text-align: center;
-  padding: 5px 5px 15px 5px;
-  margin: 5px; }
-
-.shop-caps img {
-  width: 100px;
-  height: 120px; }
-
-.main__shop {
-  padding: 10px 10px 40px 10px; }
-
-.main__shop h2 {
-  padding: 0px 10px 0px 50px; }
-
-.main__shop h1 {
-  padding: 0px 10px 0px 30px; }
-
-/*Detalles*/
 .main-contacto h1 {
   padding: 20px 0px; }
 
 .main-contacto .formulario-consulta {
   height: 250px; }
+
+.main-contacto {
+  background-image: url("../recursos/cafe-largo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.contacto_div_frase {
+  background-color: antiquewhite; }
 
 .formulario-contacto {
   width: 200px; }
@@ -231,6 +228,7 @@ body {
   width: 80px;
   height: 50px; }
 
+/*Detalles*/
 .navegador li:hover {
   background-color: #bd9766; }
 
@@ -243,6 +241,14 @@ body {
 
 .nav-link {
   color: aliceblue; }
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f9dab1; }
 
 @media (min-width: 425px) {
   .main__historia__imagenes {
@@ -299,4 +305,17 @@ body {
     padding: 0px 80px; }
   .main-contacto {
     height: 800px;
-    padding: 0px 5px; } }
+    padding: 0px 5px; }
+  .navbar {
+    width: 80%; }
+    .navbar .navbar-collapse {
+      width: 80%;
+      display: flex;
+      justify-content: flex-end; } }
+
+@media (min-width: 1024px) {
+  .main-index .frase-main {
+    background-color: antiquewhite;
+    width: 768px;
+    margin: 0px 0px 0px 40px;
+    margin-bottom: 0px; } }

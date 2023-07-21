@@ -1,0 +1,98 @@
+.main-contacto {
+    height: 800px;
+    padding: 0px 40px; }
+    
+  .main__historia {
+    margin: 10px;
+    padding: 10px; }
+  
+  .main__historia__imagenes {
+    display: flex;
+    width: 70%;
+    height: 200px;
+    padding: 10px 0px; }
+  
+  .main-index .frase-main {
+    background-color: antiquewhite;
+    /*width: 425px;*/
+    margin-bottom: 0px; }
+  
+  .section-main-index {
+    background-color: #bab7b3;
+    background-image: url("../recursos/cafe-largo.jpg");
+    /*  background-size: 1550px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  
+  .main-index li {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px 10px; }
+  
+  .main-index a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px; }
+  
+  .frase-main-principal {
+    list-style-type: none;
+    font-size: 35px;
+    font-family: cursive; }
+  
+  .frase-main-dos {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: sans-serif; }
+  
+  .pop-up-index {
+    padding: 10px 10px;
+    width: 100%; }
+  
+  .pop-up-index img {
+    width: 100%;
+    height: 160px;
+    /* border-radius: 50%;*/ }
+  
+  .pop-up-index h2 {
+    background-color: #673e0f;
+    /*   text-align: center;*/
+    color: antiquewhite;
+    display: flex;
+    font-size: 20px;
+    justify-content: center; }
+  
+  .rutas-index {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 10px; }
+  
+  .main__tutorial__imagensecundaria {
+    display: flex;
+    padding: 10px; }
+  
+  .main__tutorial__imagenprincipal {
+    display: flex;
+    width: 100%; }
+  
+  .main__tutorial {
+    padding: 0px 10px 30px 10px;
+    margin: 10px; }
+  
+  .main__tutorial section {
+    padding: 10px 0px; }
+  
+  .main__tutorial__lista {
+    padding: 0px 10px; }
+  
+  .main__tutorial__section p {
+    padding: 10px 0; }
+  
+  .main__tutorial__section h2 {
+    padding: 10px 0; }
+  
+  .main {
+    background-color: #f9dab1; }
+  

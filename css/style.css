@@ -125,6 +125,9 @@
 .main__tutorial h1 {
   font-family: cursive; }
 
+.main__shop h2 {
+  background-color: antiquewhite; }
+
 .main__tutorial__imagenprincipal {
   display: flex;
   width: 100%; }

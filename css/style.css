@@ -53,6 +53,14 @@
 .main__historia {
   margin: 10px;
   padding: 10px; }
+  .main__historia .main__historia__divisor {
+    background-image: url(../recursos/cafe-largo.jpg);
+    height: 120px; }
+  .main__historia .main__historia__frase {
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
 
 .main__historia__imagenes {
   display: flex;
@@ -141,6 +149,10 @@
 
 .main__tutorial__lista {
   padding: 0px 10px; }
+  .main__tutorial__lista a {
+    color: #745630; }
+  .main__tutorial__lista li {
+    padding: 5px; }
 
 .main__tutorial__section p {
   padding: 10px 0; }
@@ -285,6 +297,8 @@ body {
     width: 300px; }
   .pop-up-index img {
     width: 300px; }
+  .main__historia__frase {
+    width: 60%; }
   .main-index .frase-main {
     background-color: antiquewhite;
     width: 768px;
@@ -304,7 +318,7 @@ body {
     padding: 10px; }
   .main__tutorial {
     padding: 0px 100px 0px 30px; }
-  .main__historia {
+  .historia-cafe {
     padding: 0px 100px 0px 30px; }
   .input-form {
     display: flex;
@@ -328,4 +342,6 @@ body {
     background-color: antiquewhite;
     width: 768px;
     margin: 0px 0px 0px 40px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+  .main__historia__frase {
+    width: 40%; } }

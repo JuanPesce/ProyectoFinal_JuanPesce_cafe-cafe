@@ -61,6 +61,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+  .main__historia h2 {
+    padding: 10px 50px; }
 
 .main__historia__imagenes {
   display: flex;
@@ -333,7 +335,7 @@ body {
   .main__tutorial {
     padding: 0px 100px 0px 30px; }
   .historia-cafe {
-    padding: 0px 220px 0px 30px;
+    padding: 0px 80px;
     display: flex;
     flex-direction: column; }
   .input-form {

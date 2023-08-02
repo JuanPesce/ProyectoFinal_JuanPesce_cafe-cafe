@@ -19,7 +19,7 @@
       display: flex;
       width: 380px;
       height: 200px;
-      padding: 10px; 
+      /*padding: 10px;*/ 
       align-items: center;
     }
 
@@ -66,13 +66,14 @@
       display: flex;
       width: 480px;
       height: 300px;
-      padding: 10px; }
+      /*padding: 10px;*/ }
     .main__tutorial {
       padding: 0px 100px 0px 30px; }
-    .historia-cafe {
-      padding: 0px 100px 0px 30px; } 
+    
+      
+    
 
-      .input-form{
+    .input-form{
         display: flex;
         height: 25px;
         width: 400px;

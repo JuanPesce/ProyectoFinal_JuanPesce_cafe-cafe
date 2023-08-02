@@ -331,11 +331,7 @@ body {
     height: 800px;
     padding: 0px 5px; }
   .navbar {
-    width: 80%; }
-    .navbar .navbar-collapse {
-      width: 80%;
-      display: flex;
-      justify-content: flex-end; } }
+    width: 80%; } }
 
 @media (min-width: 1024px) {
   .main-index .frase-main {
